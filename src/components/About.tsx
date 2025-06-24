@@ -12,13 +12,13 @@ const About = () => {
     },
     {
       icon: Star,
-      number: '4.9',
-      label: 'Avaliação Média'
+      number: '20+',
+      label: 'Anos de Experiência'
     },
     {
       icon: Award,
-      number: '5+',
-      label: 'Anos de Experiência'
+      number: '12+',
+      label: 'Anos do BeaBrincar'
     },
     {
       icon: Heart,
@@ -28,12 +28,13 @@ const About = () => {
   ];
 
   const qualifications = [
-    'Psicóloga especializada em desenvolvimento infantil',
-    'Certificação em Disciplina Positiva',
-    'Especialização em Terapia Familiar',
-    'Mais de 1.000 horas de atendimento',
-    'Palestrante em congressos nacionais',
-    'Autora de 3 e-books sobre educação parental'
+    'Mãe do Felipe e da Manuela - vivência real da maternidade',
+    'Formada em Educação Física pela UFPR',
+    'Estudante de Psicologia',
+    'Especialista em Psicomotricidade Relacional há 20+ anos',
+    'Ex-coordenadora pedagógica escolar',
+    'Autora do livro "Sala de Embarque - Uma Experiência Pedagógica"',
+    'Criadora da clínica BeaBrincar há 12 anos'
   ];
 
   return (
@@ -53,10 +54,10 @@ const About = () => {
             <div className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-xl max-w-xs">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium text-gray-600">Ajudando famílias desde 2019</span>
+                <span className="text-sm font-medium text-gray-600">Transformando famílias há 20+ anos</span>
               </div>
               <p className="text-sm text-gray-700">
-                "Acredito que toda criança pode aprender a se comportar bem quando os pais sabem como ensinar."
+                "Toda criança pode aprender a se comportar bem quando entendemos o que ela expressa através do brincar."
               </p>
             </div>
           </div>
@@ -70,18 +71,27 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Olá! Sou Ana Carolina, psicóloga especializada em desenvolvimento infantil 
-                  e criadora do método MatriaMãe. Há mais de 5 anos, dedico minha vida a 
-                  ajudar mães a transformarem sua relação com os filhos.
+                  Olá, mães! Sou a Bea, mãe do Felipe e da Manuela, e sei exatamente como é 
+                  difícil equilibrar amor e firmeza na educação dos nossos filhos. Como vocês, 
+                  já passei por momentos de dúvida: "Será que estou sendo muito rígida? Ou muito 
+                  permissiva?"
                 </p>
                 <p>
-                  Depois de atender centenas de famílias em consultório, percebi que muitas 
-                  mães enfrentavam os mesmos desafios: como estabelecer limites sem gritar, 
-                  como lidar com birras, como manter a conexão mesmo nos momentos difíceis.
+                  Há mais de 20 anos, dedico minha vida a desvendar os mistérios do comportamento 
+                  infantil através da <strong>Psicomotricidade Relacional</strong>. Descobri que as 
+                  crianças nos contam tudo através do brincar - suas angústias, medos, necessidades 
+                  e desejos. Precisamos apenas aprender a "ler" essas mensagens.
                 </p>
                 <p>
-                  Foi assim que nasceu o MatriaMãe: um espaço seguro onde mães podem aprender, 
-                  compartilhar experiências e descobrir que é possível educar com amor E firmeza.
+                  No BeaBrincar, minha clínica há 12 anos, desenvolvi um método que vai além do que 
+                  se vê no comportamento da criança. <strong>Você não precisa mais gritar, brigar ou 
+                  se sentir perdida</strong>. Existe um caminho para estabelecer limites claros com 
+                  muito amor, criando a harmonia familiar que você tanto deseja.
+                </p>
+                <p>
+                  Minha missão é ajudar você a transformar sua relação com seus filhos, cultivando 
+                  <strong>laços fortes, limites claros e muito carinho</strong> - porque toda família 
+                  merece viver em paz e acolhimento.
                 </p>
               </div>
             </div>
