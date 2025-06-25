@@ -45,7 +45,7 @@ const About = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-purple-400/20 to-pink-500/20 rounded-3xl transform -rotate-3"></div>
             <img
-              src="/lovable-uploads/99a800ad-4cc7-483b-bfcf-6e8ee6e9e900.png"
+              src="/lovable-uploads/8362d147-272a-4518-9b49-583ebd01e774.png"
               alt="Beatriz do BeaBrincar - Especialista em Psicomotricidade Relacional"
               className="relative rounded-3xl shadow-2xl w-full h-[600px] object-cover"
             />
