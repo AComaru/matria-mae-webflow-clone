@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Heart, Instagram, Facebook, MessageCircle, Mail } from 'lucide-react';
+import { Heart, Instagram, Facebook, MessageCircle, Mail, MapPin, Phone } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -39,10 +39,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: MessageCircle, href: '#', label: 'WhatsApp' },
-    { icon: Mail, href: '#', label: 'E-mail' }
+    { icon: Instagram, href: 'https://instagram.com/beabrincar', label: 'Instagram' },
+    { icon: Facebook, href: 'https://facebook.com/beabrincar', label: 'Facebook' },
+    { icon: MessageCircle, href: 'https://wa.me/5541992588785', label: 'WhatsApp' },
+    { icon: Mail, href: 'mailto:contato@beabrincar.com.br', label: 'E-mail' }
   ];
 
   return (
@@ -63,6 +63,25 @@ const Footer = () => {
               Apoio completo e humanizado para sua jornada materna. 
               Da gestação ao pós-parto, estou aqui para você.
             </p>
+            
+            {/* Address Info */}
+            <div className="space-y-3 mb-6">
+              <div className="flex items-start space-x-3">
+                <MapPin className="h-5 w-5 text-rose-400 flex-shrink-0 mt-1" />
+                <div className="text-gray-300">
+                  <div className="font-medium">Endereço:</div>
+                  <div>Rua Inácio Lustosa, 1134</div>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Phone className="h-5 w-5 text-rose-400 flex-shrink-0" />
+                <div className="text-gray-300">
+                  <span className="font-medium">Telefone: </span>
+                  (41) 3082-3929
+                </div>
+              </div>
+            </div>
+            
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => {
                 const IconComponent = social.icon;

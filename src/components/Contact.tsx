@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -9,19 +8,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'E-mail',
-      info: 'contato@matriamae.com.br',
-      action: 'mailto:contato@matriamae.com.br'
+      info: 'contato@beabrincar.com.br',
+      action: 'mailto:contato@beabrincar.com.br'
     },
     {
       icon: Phone,
       title: 'WhatsApp',
-      info: '(11) 99999-9999',
-      action: 'tel:+5511999999999'
+      info: '(41) 99258-8785',
+      action: 'tel:+5541992588785'
     },
     {
       icon: MapPin,
       title: 'Atendimento',
-      info: 'Online e São Paulo, SP',
+      info: 'Online e Curitiba/PR',
       action: '#'
     },
     {
@@ -36,23 +35,23 @@ const Contact = () => {
     {
       icon: Instagram,
       name: 'Instagram',
-      handle: '@matriamae.oficial',
+      handle: '@beabrincar',
       color: 'from-pink-500 to-purple-500',
-      url: 'https://instagram.com/matriamae.oficial'
+      url: 'https://instagram.com/beabrincar'
     },
     {
       icon: Facebook,
       name: 'Facebook',
-      handle: 'MatriaMãe',
+      handle: '@beabrincar',
       color: 'from-blue-500 to-blue-600',
-      url: 'https://facebook.com/matriamae'
+      url: 'https://facebook.com/beabrincar'
     },
     {
       icon: MessageCircle,
       name: 'WhatsApp',
-      handle: '(11) 99999-9999',
+      handle: '(41) 99258-8785',
       color: 'from-green-500 to-green-600',
-      url: 'https://wa.me/5511999999999'
+      url: 'https://wa.me/5541992588785'
     }
   ];
 
