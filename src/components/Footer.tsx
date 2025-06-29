@@ -60,8 +60,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6">
-              Apoio completo e humanizado para sua jornada materna. 
-              Da gestação ao pós-parto, estou aqui para você.
+              Apoio às mães na jornada de educar seus filhos para um convívio familiar harmonioso.
             </p>
             
             {/* Address Info */}
