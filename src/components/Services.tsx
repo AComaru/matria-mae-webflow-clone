@@ -1,38 +1,38 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Heart, Baby, Users, BookOpen, Smartphone, MessageCircle } from 'lucide-react';
+import { Heart, Users, BookOpen, Smartphone, MessageCircle, Home } from 'lucide-react';
 
 const Services = () => {
   const services = [
     {
       icon: Heart,
-      title: 'Acompanhamento Pré-Natal',
-      description: 'Suporte emocional e informativo durante toda a gestação, preparando você para o parto.',
+      title: 'Consultoria Familiar',
+      description: 'Orientação personalizada para melhorar o relacionamento entre pais e filhos.',
       color: 'from-rose-400 to-pink-500'
     },
     {
-      icon: Baby,
-      title: 'Apoio no Parto',
-      description: 'Presença contínua durante o trabalho de parto, oferecendo conforto e advocacy.',
+      icon: Users,
+      title: 'Workshops Educativos',
+      description: 'Encontros práticos para aprender técnicas de educação positiva e comunicação.',
       color: 'from-pink-400 to-rose-500'
     },
     {
-      icon: Users,
-      title: 'Cuidados Pós-Parto',
-      description: 'Orientação sobre amamentação, cuidados com o bebê e recuperação pós-parto.',
+      icon: BookOpen,
+      title: 'Educação Comportamental',
+      description: 'Estratégias para lidar com birras, estabelecer limites e criar rotinas saudáveis.',
       color: 'from-purple-400 to-pink-500'
     },
     {
-      icon: BookOpen,
-      title: 'Educação Perinatal',
-      description: 'Cursos e workshops sobre parto, amamentação e cuidados com o recém-nascido.',
+      icon: Home,
+      title: 'Ambiente Familiar Harmonioso',
+      description: 'Dicas para criar um lar acolhedor onde todos se sintam respeitados e amados.',
       color: 'from-indigo-400 to-purple-500'
     },
     {
       icon: Smartphone,
       title: 'Consultoria Online',
-      description: 'Atendimento virtual para dúvidas e orientações, disponível 24/7.',
+      description: 'Atendimento virtual para dúvidas e orientações sobre educação infantil.',
       color: 'from-blue-400 to-indigo-500'
     },
     {
@@ -51,7 +51,7 @@ const Services = () => {
             Serviços Especializados
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Oferecemos um cuidado integral e personalizado para cada fase da sua jornada materna, 
+            Oferecemos um cuidado integral e personalizado para apoiar você na educação dos seus filhos, 
             sempre com carinho, respeito e profissionalismo.
           </p>
         </div>

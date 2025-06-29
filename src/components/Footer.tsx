@@ -9,9 +9,9 @@ const Footer = () => {
     {
       title: 'Serviços',
       links: [
-        'Acompanhamento Pré-Natal',
-        'Apoio no Parto',
-        'Cuidados Pós-Parto',
+        'Consultoria Familiar',
+        'Educação Comportamental',
+        'Workshops Educativos',
         'Consultoria Online',
         'Grupos de Apoio'
       ]
@@ -20,7 +20,7 @@ const Footer = () => {
       title: 'Recursos',
       links: [
         'Blog',
-        'Dicas de Maternidade',
+        'Dicas de Educação',
         'E-books Gratuitos',
         'Vídeos Educativos',
         'FAQ'
